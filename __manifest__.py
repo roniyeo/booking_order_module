@@ -1,7 +1,6 @@
 {
     'name': "booking_order_RONIZEKI_24102024",
-    'summary': """
-        Booking Order Module""",
+    'summary': "Booking Order Module",
     'description': """
         Booking Order Module by Roni Zeki
     """,
@@ -15,8 +14,6 @@
     'data': [
         'security/ir.model.access.csv',
         'views/canceled_order_view.xml',
-        'views/views.xml',
-        'views/templates.xml',
         'views/work_order_view.xml',
         'views/booking_order_view.xml',
         'views/service_team_view.xml',
