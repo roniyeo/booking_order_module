@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="menu_booking_order_root" name="Booking" parent="sale.menu_sale_root" sequence="10"/>
+    <menuitem id="menu_service_team" name="Service Team" parent="menu_booking_order_root" action="action_service_team"/>
+    <menuitem id="menu_booking_order" name="Booking Order" parent="menu_booking_order_root" action="action_booking_order"/>
+    <menuitem id="menu_work_order" name="Work Order" parent="menu_booking_order_root" action="action_work_order"/>
+</odoo>

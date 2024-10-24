@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_work_order_form" model="ir.ui.view">
+        <field name="name">work.order.form</field>
+        <field name="model">work.order</field>
+        <field name="arch" type="xml">
+            <form string="Work Order">
+                <group>
+                    <field name="wo_number"/>
+                    <field name="booking_order_id"/>
+                    <field name="team_id"/>
+                    <field name="team_leader_id"/>
+                    <field name="team_member_ids"/>
+                    <field name="planned_start"/>
+                    <field name="planned_end"/>
+                    <field name="state"/>
+                    <field name="notes"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_work_order_tree" model="ir.ui.view">
+        <field name="name">work.order.tree</field>
+        <field name="model">work.order</field>
+        <field name="arch" type="xml">
+            <tree string="Work Orders">
+                <field name="wo_number"/>
+                <field name="team_id"/>
+                <field name="planned_start"/>
+                <field name="planned_end"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
